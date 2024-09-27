@@ -1,0 +1,44 @@
+# add comment start with hash (#)
+# this is a YAML file
+
+my-course: "MLOPs Fundamentals" # name of this course
+verison: 1.0 #version of this couse
+price: 500 # proce of this course
+is_public: true #open to all not only a perticular group such as coorporate only
+release_date: 2024-10-30 
+pre_enroll: null #enrollment configuration
+
+# Write a var with list properties
+category: 
+ - AWS
+ - DevOps
+ - Python
+ - Machine Learning
+ - jupyter Notebook
+ - git
+
+# Second method to define a var with list properties
+course_dev: ["Saurabh", "Bhardwaj"]
+
+# Write a var with dictionary properties
+dev_details:
+ - name: "Saurabh"
+   email: "aryan.saurabhbhardwaj@gmail.com"
+   role: "author"
+ - name: "Bhardwaj"
+   email: "aryan.saurabhbhardwaj@gmail.com"
+   role: "creator"
+
+# Write multiline description for a var. It will be treated as a single line due to (<)
+description: >
+ This course is for data scientist, data analyst
+ who wants to swtich to ML field
+
+# Write multiline description for a var. It will be treated as a paragraph or multiline due to (|)
+detail_description: |
+  This course has been created with the colloboration 
+  It contain all you will need to know to become an expert in MLOPs.
+
+
+
+

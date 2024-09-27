@@ -152,5 +152,6 @@ git status
 git log
 ```
 
+## THree way merge
 
 
